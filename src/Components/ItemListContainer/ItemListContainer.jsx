@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './StylesItemList.css'
 import { useState, useEffect } from "react";
-import ItemList from '../itemList/ItemList';
+import ItemList from '../itemList/itemList';
 import { useParams } from "react-router-dom";
 import { db } from "../../firebase/firebase";
 import { getDocs, collection, query, where } from "firebase/firestore";
